@@ -1,4 +1,91 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+	padding: 32px;
+}
+
+nav {
+	background: orangered;
+	padding: 8px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#left-col {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+
+h1 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+main {
+	background-color: rgba(255, 255, 228, 0.459);
+	padding-top: 16px;
+}
+
+.row {
+	padding: 0px 0 16px 16px;
+	gap: 4px;
+	display: flex;
+	color: gray;
+}
+
+.post-heading {
+	display: flex;
+	gap: 8px;
+	margin-bottom: 8px;
+}
+
+.post-title {
+	color: #000000;
 }
